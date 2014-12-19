@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+	width: 960px;
+	margin: auto;
+}
+.clear:after {
+	content:'';
+	clear: both;
+	display:block;
+}
+img {
+	display: block;
+	border: none;
+}
+
+/*Navigation End*/
+
+nav {
+	background: #a81f00;
+}
+.menu {
+	float: right;
+}
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
+.menu li {
+	list-style: none;
+	float: left;
+	margin-left: 17px;
+	position: relative;
+	display: block;
+}
+.menu li>a {
+	color: #fff;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 44px;
+	line-height: 44px;
+	float: left;
+	text-decoration: none;
+	display: block;
+}
+.menu .black {
+	background: #000;
+	padding: 0 14px;
+}	
+.menu .black:hover {
+	color: #fff;
+}
+.menu li article {
+	position: absolute;
+	left: -10px;
+	top: 55px;
+	background: rgba(14,110,54,.9);
+	width: 150px;
+	height: 200px;
+	visibility: hidden;
+	transition: .5s;
+}
+.menu li:hover article {
+	opacity: 1;
+	visibility: visible;
+	top: 44px;
+}
+.menu li a:hover {
+	color: #a8b8f4;
+
+}
+.menu li article a {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+    font-family: 'museo500';
+	font-weight: normal;
+	line-height: 27px;
+	text-align: center;
+}
+.menu li article a:hover {
+	background: rgba(251,247,25,.9);
+}
+.menu article span {
+	position:absolute;
+	left:40px;
+	top:-10px;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid rgba(14,110,54,.9);
+	border-left: 10px solid transparent;
+}
+/*Navigation End*/
+
+/*Header Start*/
+
+header {
+	border-top: 1px solid #fff;
+	background: #e5e5e5;
+	padding: 33px 0;
+}
+.logo {
+	float: left;
+}
+.social {
+	float: right;
+}
+.social a {
+	float: left;
+	margin-left: 10px;
+}
+header img {
+	border: none;
+}
+/*Header End*/
+
+
+/*Banner Start*/
+
+
+.banner {
+  background: url(../images/bg-banner.png) no-repeat;
+  letter-spacing: -4px;
+  text-align: center;
+}
+.battery {
+  padding: 27px 0 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+}
+.our-product {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0;
+  text-align: left;
+}
+.our-product ul {
+  padding: 0;
+  margin: 9px 0 0 0;
+}
+.our-product li {
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 60px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  background: url(../images/icon-bulb.png)  34px 2px no-repeat;
+  text-shadow: 1px 1px 1px #cf7f1b;
+}
+.btn img {
+  float: left;
+  margin: 8px 6px 0 0;
+}
+
+.btn {
+  background: url(../images/red-green.png) left top repeat-x;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  padding: 0 15px 0 10px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  text-shadow: 1px 1px 1px #9c2c12;
+  transition: 2s;
+}
+.btn:hover {
+  background: url(../images/red-green.png) left bottom repeat-x;
+}
+
+.btn-grey {
+  background: url(../images/grey-pink.png) left top repeat-x;
+  text-shadow: 1px 1px 1px #797979;
+}
+
+.banner .btn {
+  margin: 18px 0 0 34px;
+}
+
+.btn-grey:hover {
+  background: url(../images/grey-pink.png) left bottom repeat-x;
+}
+
+/*Banner End*/
+
+
+/*Content Start*/
+
+.content {
+	margin-top: 50px;
+	text-align: center;
+}
+.content h1 {
+	margin: -8px 0 0 0;
+	padding: 0;
+	font-size: 46px;
+	color: #ad2c0f;
+	letter-spacing: -1px;
+	text-align: center;
+    font-family: 'museo500';
+	font-weight: normal;
+}
+.content p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #343434;
+	line-height: 28px;
+	margin: 12px 0 0 0;
+}
+
+.content .btn {
+	margin-top: 23px;
+}
+
+/*Content End*/
+/*Three-Logo Start */
+
+.three-logo {
+	margin-top: 42px;
+	padding: 0 0 42px 0;
+}
+.three-logo .center {
+	border-top: 1px dashed #737373;
+}
+
+.iso {
+	float:left;
+	margin-top: 36px;
+	margin-right: 42px;
+}
+.iso-logo {
+	float:left;
+}
+.quality {
+	float:left;
+	margin: 8px 0 0 20px;
+}
+.quality h5 {
+	margin: 0 0 2px 0;
+	font-size: 30px;
+	color: #a81f00;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.quality p {
+	margin: 0;
+	font-size: 18px;
+	color: #343434;
+}
+.csr {
+	border-left: 1px dashed #737373;
+	border-right: 1px dashed #737373;
+	float: left;
+	margin-right: 42px;
+	padding: 36px 38px 0 40px;
+}
+.careers {
+	float: left;
+	margin-top: 36px;
+}
+
+/*Three-Logo End */
+
+
+/*Footer Start */
+
+footer {
+	background: #e5e5e5;
+	border-top: 1px solid #b7b7b7;
+}
+.footer-left {
+	margin-top: 31px;
+	float: left;
+}
+.footer-left h5 {
+	margin: 0;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color:#a81f00;
+	text-decoration: underline;
+}
+.footer-left ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 19px;
+}
+.footer-left li {
+	list-style: none;
+	
+}
+.footer-left li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #007843;
+	margin-right: 34px;
+	line-height: 23px;
+}
+.home {
+	float: left;
+}
+.contact-us {
+	float:left;
+}
+.footer-right {
+	float: left;
+	margin: 40px 0 0 9px;
+}
+.ktm {
+	float: left;
+}
+.birjung {
+	margin-left: 31px;
+	float: left;
+}
+.footer-right h5 {
+	margin: 0;
+	font-size: 14px;
+	 color: #a81f00;
+}
+.footer-right p {
+	margin-top: 6px;
+	line-height: 19px;
+	font-size: 12px;
+	color: #202020;
+	display: inline-block;
+}
+.footer-right .head-office {
+	margin-bottom: 7px;
+}
+.footer-right .head-office p {
+	font-size: 14px;
+	color:#2c2c2c;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 22px;
+}
+.footer-right .head-office h5 {
+	color: #007843;
+	margin-bottom: -3px;
+}
+.footer-end .center {
+	border-top: 1px dashed #b7b7b7;
+}
+.footer-end .left {
+	padding: 17px 0 0 0;
+	float: left;
+}
+.copyright {
+	float: left;
+	font-size: 12px;
+	color: #2c2c2c;
+}
+.tquid {
+	margin: -5px 0 0 4px;
+	background: url(../images/icon-arrow.png) no-repeat;
+	float: left;
+}
+.tquid a {
+	color: #000;
+	text-decoration: none;
+	padding: 0 0 0 23px;
+	font-size: 14px;
+	color: #2c2c2c;
+}
+.footer-end .right {
+	padding: 12px 0 0 0;
+	float: right;
+    font-family: 'museo500';
+	font-size: 20px;
+	color: #4e4e4e;
+}
+
+/*Footer End */
